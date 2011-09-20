@@ -27,6 +27,13 @@ So to avoid any problem:
 - Each time you stop tcpdump, stop Wireshark. 
 - And each time you stop Wireshark, stop tcpdump.
 
+# What are the command line options?
+
+--pipe=<name> where <name> is the name of the Windows pipe.
+--port=<port> where <port> is the TCP port number.
+--log=<level> where <level> is Debug, Info, Warning, Error or Critical. Determine the level of details given by this tool.
+--help or -h to get some help about this tool.
+
 # How to build ADVsock2pipe?
 
 In order to build ADVsock2pipe, you need to have Visual Studio 2010 or 2011 Developer Preview. Open the solution (ADVsock2pipe.sln) and build it.
