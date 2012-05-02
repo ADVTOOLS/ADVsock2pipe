@@ -11,7 +11,7 @@ For example, to capture data on a device (10.0.0.1) and send it to Wireshark on 
 
 On the Windows workstation (10.0.0.99):
 
-- `ADVsock2pipe -pipe=wireshark -p 7777`
+- `ADVsock2pipe -pipe=wireshark -port=7777`
 - Start Wireshark
 - Capture | Options, Interface: Local, \\\\.\pipe\wireshark
 - Start
